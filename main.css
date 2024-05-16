@@ -32,7 +32,7 @@
 }
 
 .carousel-inner img {
-    height: 600px;
+    height: 450px;
     width: 100%;
 }
 
@@ -49,7 +49,7 @@
     background-color: rgb(12, 12, 12);
 }
 #aboutus-img {
-    height: 450px;
+    height: 380px;
 }
 
 #aboutus-text {
@@ -160,7 +160,9 @@ aside .nav-cursos-aba .nav-link {
         margin-top: 20px;
         padding: 0 !important;
         margin-left: 0;
-    }    
+    }  
+    
+    
     
 }
 
@@ -172,7 +174,7 @@ aside .nav-cursos-aba .nav-link {
     }
 
     #aboutus-img {
-        /* height: 280px; */
+        height: 450px;
     }
 
     .carousel-item img {
@@ -180,4 +182,14 @@ aside .nav-cursos-aba .nav-link {
     }
 
 }
+
+@media (max-width: 1000px) {
+    
+
+    #aboutus-img {
+        height:550px;
+    }
+
+}
+
 
