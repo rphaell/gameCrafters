@@ -11,11 +11,15 @@
     color: rgb(0, 0, 0) !important;
 }
 
+#cabecalho .nav .nav-link {
+    font-size: 18px !important;
+}
+
 
 #cabecalho .nav .nav-link,
  .navbar .navbar-brand,
  .navbar .navbar-brand:hover  {
-    font-size: 18px;
+    font-size: 20px;
     color: white;
 }
 
