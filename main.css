@@ -1,0 +1,167 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: rgb(3, 15, 6);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: rgb(255, 252, 230);
+    color: rgb(0, 0, 0) !important;
+}
+
+
+#cabecalho .nav .nav-link,
+ .navbar .navbar-brand,
+ .navbar .navbar-brand:hover,
+  .nav .nav-link:hover  {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+}
+
+#icon-logo {
+    font-size: 30px;
+}
+
+.container button {
+    background-color: rgb(255, 255, 255);
+}
+
+.carousel-inner img {
+    height: 600px;
+    width: 100%;
+}
+
+.section-title i {
+    font-size: 25px;
+}
+
+#home {
+    background-color: rgb(19, 19, 19);
+}
+#section-aboutus {
+    background-color: rgb(12, 12, 12);
+}
+#aboutus-img {
+    height: 450px;
+}
+
+#aboutus-text {
+    color: white;
+}
+
+#cursos {
+    color: white;
+    background-color: rgb(17, 17, 17);
+}
+
+.text-colored {
+    color: rgb(0, 255, 42) !important;
+}
+
+.cursos-imgs {
+    height: 234px;
+}
+
+.cards {
+    background-color: rgb(222, 255, 232);
+}
+
+.nav-cursos .nav-link.active, #contato button {
+    background-color: rgb(255, 252, 230);    
+    font-weight: bold;
+    /* color: white; */
+    color: black;
+    font-size: 20px;
+
+}
+
+#contato button:hover {
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+.nav-cursos .nav-link {
+    background-color: rgb(204, 250, 204);
+    border: 3px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.nav-cursos .nav-link:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+#cursos-explained {
+    background-color: #e3e3e3;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+    
+}
+
+.social-links a {
+    text-decoration: none;
+    /* color: black; */
+    /* color: white; */
+    color: rgb(0, 255, 42)
+
+}
+
+#contato {
+    background-color: rgb(17, 17, 17);;
+    color: white;
+
+}
+
+@media (max-width: 990px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #section-aboutus img{
+        /* margin-top: 25px; */
+        height: 600px;
+        display: none;
+    }
+
+    #cursos img {
+        margin-top: 25px;
+    }
+
+    
+}
+
+@media (max-width: 420px) {
+    .carousel-item img {
+        height: 280px;
+    }
+
+    #section-aboutus img{
+        /* margin-top: 25px; */
+        height: 280px;
+    }
+
+    #cursos img {
+        margin-top: 25px;
+    }
+
+    
+
+    
+}
+
+#cursos-explained .col-md-3 {
+    padding-left: 100px;
+    width: 50%;
+}
+
+
